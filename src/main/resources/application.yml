@@ -1,0 +1,26 @@
+spring:
+  jpa:
+
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  datasource:
+    username: root
+    password: 1234
+    url: jdbc:mysql://localhost:3306/springsecurityjpa
+      ?useUnicode=true
+      &createDatabaseIfNotExist=true
+      &useJDBCCompliantTimezoneShift=true
+      &useLegacyDatetimeCode=false
+      &serverTimezone=UTC
+
+#  security:
+#    user:
+#      name: eran
+#      password: 12345
+
+server:
+  port: 8080
+
+
